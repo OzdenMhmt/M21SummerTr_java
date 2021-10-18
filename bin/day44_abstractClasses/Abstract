@@ -1,0 +1,46 @@
+
+ABSTRACT
+// bir class'i abstract yapmak icin class keyword'unden once 
+// abstract yazmak yeterlidir.
+	
+Abstract Classes
+Kural 1)
+Concrete bir child class, parent段 olan
+abstract class値ardaki tum abstract
+method値ari implement etmelidir, diger turlu
+CTE olusur.
+
+Kural 2)
+Abstract method値ari implement etmek icin
+oncelikle overriding yapilmalidir.
+
+Kural 3)
+Abstract class, abstract olmayan (concrete)
+method値ara da sahip olabilir. Cocrete
+method値ar implement edilmek ZORUNDA
+DEGILDIR. Parent-child iliskisi ile
+kullanilabilirler veya istenirse override
+edilebilirler
+
+Kural 4)
+Abstract bir child class, parent段 olan
+abstract class値ardaki method値ari implement
+etmek ZORUNDA DEGILDIR. Parent-child
+iliskisi ile tum method値ara ulasabilir.
+
+Kural 5)
+Abstract class値ar somutlastirilamaz (can not
+be instantiated) yani abstract class値arda
+obje olusturulamaz.
+
+NOT :
+Bir abstract class, abstract veya concrete method値ara sahip olabilir
+Concrete class icinde Abstract method OLUSTURULAMAZ
+Kural 6)
+Abstract class値ar private veya final static olarak
+tanimlanamaz	
+
+Kural7
+// abstract bir class'in icinde variable olabilir mi // olabilir
+
+// variable'lar abstract olur mu  // olmaz...

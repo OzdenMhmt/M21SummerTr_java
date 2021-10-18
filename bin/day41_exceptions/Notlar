@@ -1,0 +1,48 @@
+Exceptions --->
+
+1)iki tur exceptions vardir.
+
+i) Compile Time(checked) Exceptions; kod creat edilirken
+java'nin ongordugu olasi sorunlara karsi hatanin altinin cizilmesi
+Ama her alti kirmizi cizilen kod exceptions degildir.
+
+ii) Run Time(unchecked) Exceptions; Kod calistirildiginda 
+ortaya cikan exception’lardir
+
+2)Code creat edilirken Exception kullanilmasi gerekirse;
+	a--> Add thorws declartions:Hata olsutugunda console'a hata ile ilgili mesaj verir.
+	
+	b-->try-catch block :Hata olustugunda hatanini yazdirilmasi
+	 ve handle edilmesini saglar.
+	
+3)try block'tan sonra en az bir tane catch block olmali
+aksi durumda CTE verir...!!
+
+4)try-catch block'ta try body hatasiz calisirsa catch body calistirilmaz
+catch body try body'deki exceptions'da calisir.
+      
+5) try  body'den sonra 1 den fazla catch body creat edilebilir. Olusan exceptions hangi catch ile ilgili ise o catch body
+ calisir. Ayni anda sadece tek catch body calisir. tek try ama birden cok catch body olan durumlarda catch bodyler arasinda yukaridan 
+ asasiya dogru child - parent iiskisi olmali yosa CTE (erisilemez catch blogu) verir.catch bodyler arasinda parent-child iliskisi yoksa siralama onemli degil 
+ yukaridan asagiya catchler calisir.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
